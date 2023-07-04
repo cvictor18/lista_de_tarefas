@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Handlee', cursive;
+}
+
+body {
+    width: 960px;
+    width: 100%;
+    margin: auto;
+    opacity: 0;
+    transition: all ease 2s;
+}
+
+.conteudo {
+    width: 35%;
+    margin: 72px auto 0 auto;
+    background-color: #fff18f;
+    border-radius: 5px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 50px;
+    padding: 0 15px 6px 0;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 32px 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 3px 0 0 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    font-size: 18px;
+    width: 80px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    padding: 3px;
+}
+
+ol {
+    padding: 25px 0;
+}
+
+li {
+    width: 52%;
+    margin: 5px auto;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ol li:focus {
+    text-decoration: line-through;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+
