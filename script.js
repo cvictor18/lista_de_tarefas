@@ -10,6 +10,7 @@ $('document').ready(function() {
     form.submit(function(e){
         e.preventDefault()
         adicionaTarefa()
+        $('input').val('').focus()
     })
 
     function adicionaTarefa() {
